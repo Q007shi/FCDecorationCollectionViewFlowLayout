@@ -1,0 +1,16 @@
+PODS:
+  - FCDecorationCollectionViewFlowLayout (0.0.1)
+
+DEPENDENCIES:
+  - FCDecorationCollectionViewFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  FCDecorationCollectionViewFlowLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCDecorationCollectionViewFlowLayout: de290c9891c51f3b351b0545ba48d0fc9cfc9bfd
+
+PODFILE CHECKSUM: e77c6e20bb5a577b8c6126dc8de63d176ff46955
+
+COCOAPODS: 1.9.1

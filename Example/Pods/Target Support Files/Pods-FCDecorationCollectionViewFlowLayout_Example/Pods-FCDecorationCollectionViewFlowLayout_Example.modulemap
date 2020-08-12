@@ -1,0 +1,6 @@
+framework module Pods_FCDecorationCollectionViewFlowLayout_Example {
+  umbrella header "Pods-FCDecorationCollectionViewFlowLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

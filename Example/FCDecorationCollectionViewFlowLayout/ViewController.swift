@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import FCDecorationCollectionViewFlowLayout
 
 class ViewController: UIViewController {
+    
+    var layout: FCDecorationCollectionViewFlowLayout = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
