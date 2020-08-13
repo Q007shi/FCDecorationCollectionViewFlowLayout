@@ -23,11 +23,13 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/Q007shi/FCDecorationCollectionViewFlowLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT' }
   s.author           = { '2585299617@qq.com' => '617@qq.com' }
   s.source           = { :git => 'https://github.com/Q007shi/FCDecorationCollectionViewFlowLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.requires_arc = true
+  s.swift_version = "5.0"
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'FCDecorationCollectionViewFlowLayout/Classes/**/*.swift'

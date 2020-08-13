@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FCDecorationCollectionViewFlowLayout: de290c9891c51f3b351b0545ba48d0fc9cfc9bfd
+  FCDecorationCollectionViewFlowLayout: 0dfe2655c336e4999e5bc7832f64527008b97b24
 
 PODFILE CHECKSUM: e77c6e20bb5a577b8c6126dc8de63d176ff46955
 

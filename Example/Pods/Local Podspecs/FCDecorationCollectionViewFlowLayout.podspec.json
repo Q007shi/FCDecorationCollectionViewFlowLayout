@@ -3,20 +3,22 @@
   "version": "0.0.1",
   "summary": "A short description of FCDecorationCollectionViewFlowLayout.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2585299617@qq.com/FCDecorationCollectionViewFlowLayout",
+  "homepage": "https://github.com/Q007shi/FCDecorationCollectionViewFlowLayout",
   "license": {
-    "type": "MIT",
-    "file": "LICENSE"
+    "type": "MIT"
   },
   "authors": {
     "2585299617@qq.com": "617@qq.com"
   },
   "source": {
-    "git": "https://github.com/2585299617@qq.com/FCDecorationCollectionViewFlowLayout.git",
+    "git": "https://github.com/Q007shi/FCDecorationCollectionViewFlowLayout.git",
     "tag": "0.0.1"
   },
+  "requires_arc": true,
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FCDecorationCollectionViewFlowLayout/Classes/**/*.swift"
+  "source_files": "FCDecorationCollectionViewFlowLayout/Classes/**/*.swift",
+  "swift_version": "5.0"
 }

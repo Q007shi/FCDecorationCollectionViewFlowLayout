@@ -312,6 +312,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		162B554C2E0A6449DBD8DD5C03774D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29EE855DEDF51C80A4FA981588FAE2B5 /* FCDecorationCollectionViewFlowLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = FCDecorationCollectionViewFlowLayout;
+				PRODUCT_NAME = FCDecorationCollectionViewFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5015F2A6C5EBD65CA34EAA5D8173162D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5520928611F24F75AB959A549A7E106E /* Pods-FCDecorationCollectionViewFlowLayout_Example.release.xcconfig */;
@@ -378,38 +409,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		854E1DBCC9109312556973E96656D020 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AA7895CEE57F91DD19F0DC9B389A9AD /* FCDecorationCollectionViewFlowLayout.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FCDecorationCollectionViewFlowLayout/FCDecorationCollectionViewFlowLayout.modulemap";
-				PRODUCT_MODULE_NAME = FCDecorationCollectionViewFlowLayout;
-				PRODUCT_NAME = FCDecorationCollectionViewFlowLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -535,9 +534,9 @@
 			};
 			name = Debug;
 		};
-		FB075E1F866DEAB92AAF744C371967ED /* Debug */ = {
+		F8E845C10F006D9E1DFCB3F47A4D8123 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29EE855DEDF51C80A4FA981588FAE2B5 /* FCDecorationCollectionViewFlowLayout.debug.xcconfig */;
+			baseConfigurationReference = 1AA7895CEE57F91DD19F0DC9B389A9AD /* FCDecorationCollectionViewFlowLayout.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -559,12 +558,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -572,8 +572,8 @@
 		3872B2B6769D0FE0B54B322E29095373 /* Build configuration list for PBXNativeTarget "FCDecorationCollectionViewFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB075E1F866DEAB92AAF744C371967ED /* Debug */,
-				854E1DBCC9109312556973E96656D020 /* Release */,
+				162B554C2E0A6449DBD8DD5C03774D27 /* Debug */,
+				F8E845C10F006D9E1DFCB3F47A4D8123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
